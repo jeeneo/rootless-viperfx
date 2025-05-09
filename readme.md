@@ -2,7 +2,7 @@
 
 ## What this is:
 1. ViperFX on your Android without rooting it or voiding the warranty/bootloader unlocking
-2. A rooted virtualized enviorment seperate from your existing Android (using closed source Virtual Master)
+2. A rooted virtualized environment separate from your existing Android (using closed source Virtual Master)
 3. Android 7.1 (Android 9/11 wouldn't root or run VFX correctly)
 
 ## What this IS NOT:
