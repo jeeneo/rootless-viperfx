@@ -6,12 +6,12 @@ Tested on Android 15/OneUI 7
 2. A rooted virtualized environment (Android 7.1) separate from your existing Android (using closed source Virtual Master)
 
 ## What this IS NOT:
-1. A system pipe for your system (only what you play in the VM gets piped)
+1. An audio pipe for your system (only what you play in the VM gets piped)
 2. Rooting/reflashing your device
 
 ## Limitations
 1. Only audio played inside the VM will be filtered (hopefully obvious)
-2. If you use local files, your music library has to be moved to `/SharedFolder` in your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
+2. If you use local files, your music library (MP3s, FLACs, etc, if you use them) has to be moved to your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
 3. Battery is probably going to get drained, it is what it is.
 
 ## Disclaimer:
