@@ -13,8 +13,9 @@
 1. Only audio played inside the VM will be filtered (hopefully obvious)
 2. If you use local files, your music library has to be moved to `/SharedFolder` in your Internal storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
 
-Instructions:
+----
 
+## Instructions:
 1. Download and install Virtual Master apk from release
 2. Download Android 7 ROM from release
 3. Create a VM with the ZIP
