@@ -11,7 +11,7 @@ Tested on Android 15/OneUI 7
 
 ## Limitations
 1. Only audio played inside the VM will be filtered (hopefully obvious)
-2. If you use local files, your music library (MP3s, FLACs, etc, if you use them) has to be moved to your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
+2. If you use local files, your music library (MP3s, FLACs, etc) has to be moved to your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
 3. Battery is probably going to get drained, it is what it is.
 
 ## Disclaimer:
