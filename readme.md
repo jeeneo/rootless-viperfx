@@ -32,8 +32,7 @@ Virtual Master is closed-source. Use at your own risk.
     - (note: enable Legacy mode if apps don't get filtered just like a normal Android phone)
 
 ## Issues
-Some apps like Poweramp don't support adding symlinked directories (which is what `/SharedFolder` is)
-If you want to add your media library to the VM without copying all of it, try:
+Some apps like Poweramp don't support adding symlinked directories (which is what `/SharedFolder` is). If you want to add your media library to the VM without copying all of it, try:
 
 1. Move your existing Music library to `/SharedFolder`
 2. In the VM, rename the symlinked folder `SharedFolder` to `SharedFolderAlt` (or something similar)
