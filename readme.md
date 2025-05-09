@@ -6,7 +6,7 @@ Tested on Android 15/OneUI 7
 2. A rooted virtualized environment (Android 7.1) separate from your existing Android (using closed source Virtual Master)
 
 ## What this IS NOT:
-1. A system pipe for audio for all your Audio (only what you play in the VM gets piped)
+1. A system pipe for all your system (only what you play in the VM gets piped)
 2. Rooting/reflashing your device
 
 ## Limitations
