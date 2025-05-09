@@ -1,9 +1,9 @@
 # Run ViperFX without rooting your Phone (kinda)
+Tested on Android 15/OneUI 7
 
 ## What this is:
 1. ViperFX on your Android without rooting it or voiding the warranty/bootloader unlocking
-2. A rooted virtualized environment separate from your existing Android (using closed source Virtual Master)
-3. Android 7.1 (Android 9/11 wouldn't root or run VFX correctly)
+2. A rooted virtualized environment (Android 7.1) separate from your existing Android (using closed source Virtual Master)
 
 ## What this IS NOT:
 1. A system pipe for audio for all your Audio (only what you play in the VM gets piped)
@@ -19,11 +19,11 @@ Virtual Master is closed-source. Use at your own risk.
 ----
 
 ## Instructions:
-1. Download and install Virtual Master apk from releas
-2. Download Android 7 ROM zip from release
+1. Download both `virtualmaster.apk` and the `rom zip` from [releases](https://github.com/jeeneo/rootless-viperfx/releases/tag/latest)
+1a. Also download [Magisk](https://github.com/topjohnwu/Magisk/releases/tag/v28.1)
 3. Create a new VM using the import tool, select the ZIP you downloaded.
-4. When it boots, import Magisk apk (v28.1 works)
-5. It will prompt you to retstart the VM, allow
+4. When it boots, add the Magisk apk from the apps menu (v28.1 works)
+5. It will prompt you to restart the VM, allow
 6. Power off the VM and in the VMs settings, enable shared folder. It will request All Files Access, grant.
 7. It will create `/SharedFolder` on the Internal Storage for both the host and virtual system.
 8. Download [ViperFX RE](https://github.com/WSTxda/ViperFX-RE-Releases)'s APK and [module](https://github.com/WSTxda/ViPERFX_RE/releases), copy both to `/SharedFolder`
