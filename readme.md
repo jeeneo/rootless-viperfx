@@ -1,7 +1,7 @@
 # Run ViperFx without rooting your Phone (kinda)
 
 ## What this is:
-1. ViperFx on your Android without rooting it or voiding the warrenty/bootloader unlocking
+1. ViperFx on your Android without rooting it or voiding the warranty/bootloader unlocking
 2. A rooted virtualized enviorment seperate from your existing Android (using closed source Virtual Master)
 3. Android 7.1 (Android 9/11 wouldn't root or run VFX correctly)
 
