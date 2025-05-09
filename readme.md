@@ -30,6 +30,7 @@ Virtual Master is closed-source. Use at your own risk.
 9. In Virtual Master, open magisk and import that module, then install `viperfx-release.apk` and restart the VM
 10. If everything was done correctly, you should be able to open ViperFX without driver issues!
     - (note: enable Legacy mode if apps don't get filtered just like a normal Android phone)
+
 (also note: you can increase refresh rate from 60 to 120 in VM settings for a smoother/faster experience)
 
 ## Issues
