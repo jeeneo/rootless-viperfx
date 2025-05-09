@@ -9,6 +9,10 @@
 1. A system pipe for audio for all your Audio (only what you play in the VM gets piped)
 2. Rooting/reflashing your device
 
+## Limitations
+1. Only audio played inside the VM will be filtered (hopefully obvious)
+2. If you use local files, your music library has to be moved to `/SharedFolder` in your Internal storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
+
 Instructions:
 
 1. Download and install Virtual Master apk from release
@@ -17,11 +21,22 @@ Instructions:
 4. When it boots, import Magisk apk (v28.1 works)
 5. It will say the VM requires restarting, let it
 6. Power off the VM and in the VMs settings, enable shared folder. It will request All Files Access, grant.
-7. It will create /SharedFolder in your internal storage on both the host and virtual system.
-8. Download [ViperFX RE](https://github.com/WSTxda/ViperFX-RE-Releases)'s APK and [module](https://github.com/WSTxda/ViPERFX_RE/releases), copy both to /SharedFolder
+7. It will create `/SharedFolder` on the Internal Storage for both the host and virtual system.
+8. Download [ViperFX RE](https://github.com/WSTxda/ViperFX-RE-Releases)'s APK and [module](https://github.com/WSTxda/ViPERFX_RE/releases), copy both to `/SharedFolder`
 9. In Virtual Master, open magisk and import that module, then install `viperfx-release.apk` and restart the VM
 10. If everything was done correctly, you should be able to open ViperFX without driver issues!
     - (note: enable Legacy mode if apps don't get filtered just like a normal Android phone)
+
+## Issues
+Some apps like Poweramp don't support adding symlinked directories (which is what /SharedFolder is)
+If you want to add your media library to the VM without copying all of it, try:
+
+1. Move your existing Music library to `/SharedFolder`
+2. In the VM, rename the symlinked folder `SharedFolder` to `SharedFolderAlt` (or something similar)
+3. Create an empty `SharedFolder` and add that in your players scan directory (in Poweramp don't use SAF picker, use it's own internal picker)
+4. After the folder has been added, close your media player delete that folder
+5. Rename `SharedFolderAlt` back to `SharedFolder`
+6. Open your media player and it should scan it fine.
 
 ----
 
