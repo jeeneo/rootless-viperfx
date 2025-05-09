@@ -62,4 +62,4 @@ I've tested
 All worked correctly.
 
 ## Okay, but... why?
-I don't know, I liked VFX on my rooted Tab S9 but using a tablet for media seemed clunky to say the least, and didn't want to carry another phone just for music. This is meant to be a temporary fix for people who cannot root their phone, until they can buy one they can. And a fun experiment as well
+I don't know, I liked VFX on my rooted Tab S9 but using a tablet for media seemed clunky to say the least, and didn't want to carry another phone just for music. This is meant to be a temporary fix for people who cannot root their phone, until they can buy a new one where rooting is an option. And a fun experiment as well
