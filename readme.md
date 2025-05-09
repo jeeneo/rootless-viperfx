@@ -19,8 +19,7 @@ Virtual Master is closed-source. Use at your own risk.
 ----
 
 ## Instructions:
-1. Download both `virtualmaster.apk` and the `rom zip` from [releases](https://github.com/jeeneo/rootless-viperfx/releases/tag/latest)
-1a. Also download [Magisk](https://github.com/topjohnwu/Magisk/releases/tag/v28.1)
+1. Download both `virtualmaster.apk` and the `rom zip` from [releases](https://github.com/jeeneo/rootless-viperfx/releases/tag/latest) (also download [Magisk](https://github.com/topjohnwu/Magisk/releases/tag/v28.1))
 3. Create a new VM using the import tool, select the ZIP you downloaded.
 4. When it boots, add the Magisk apk from the apps menu (v28.1 works)
 5. It will prompt you to restart the VM, allow
