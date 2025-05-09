@@ -11,7 +11,7 @@ Tested on Android 15/OneUI 7
 
 ## Limitations
 1. Only audio played inside the VM will be filtered (hopefully obvious)
-2. If you use local files, your music library has to be moved to `/SharedFolder` in your Internal storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
+2. If you use local files, your music library has to be moved to `/SharedFolder` in your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
 
 ## Disclaimer:
 Virtual Master is closed-source. Use at your own risk.
