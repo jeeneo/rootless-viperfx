@@ -19,8 +19,8 @@ Virtual Master is closed-source. Use at your own risk.
 ----
 
 ## Instructions:
-1. Download and install Virtual Master apk from release
-2. Download Android 7 ROM from release
+1. Download and install Virtual Master apk from releas
+2. Download Android 7 ROM zip from release
 3. Create a new VM using the import tool, select the ZIP you downloaded.
 4. When it boots, import Magisk apk (v28.1 works)
 5. It will prompt you to retstart the VM, allow
