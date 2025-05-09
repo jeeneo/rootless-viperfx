@@ -54,7 +54,7 @@ Some apps like Poweramp don't support adding symlinked directories (which is wha
  - Spotify
  - Tidal
  - Deezer
- - 
+
 All opened correctly but I'll test streaming later
 
 ## Okay, but... why?
