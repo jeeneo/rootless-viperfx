@@ -9,6 +9,11 @@
 1. A system pipe for audio for all your Audio (only what you play in the VM gets piped)
 2. Rooting/reflashing your device
 
+Instructions:
+
+1. Download Virtual Master
+2. Install 
+
 ## Who's it for?
 1. Those who own a phone but can't root it (eg. North American Samsung S24)
    - and don't want to pay for a paid unlock or risk bricking it
