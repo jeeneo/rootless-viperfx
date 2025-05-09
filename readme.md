@@ -20,7 +20,7 @@
 2. Download Android 7 ROM from release
 3. Create a VM with the ZIP
 4. When it boots, import Magisk apk (v28.1 works)
-5. It will say the VM requires restarting, let it
+5. It will prompt you to retstart the VM, allow
 6. Power off the VM and in the VMs settings, enable shared folder. It will request All Files Access, grant.
 7. It will create `/SharedFolder` on the Internal Storage for both the host and virtual system.
 8. Download [ViperFX RE](https://github.com/WSTxda/ViperFX-RE-Releases)'s APK and [module](https://github.com/WSTxda/ViPERFX_RE/releases), copy both to `/SharedFolder`
