@@ -48,8 +48,8 @@ Some apps like Poweramp don't support adding symlinked directories (which is wha
 ## Who's it for?
 1. Those who own a phone but can't root it (eg. North American Samsung S24)
    - and don't want to pay for a paid unlock or risk bricking it
-2. Those who play music locally (FLAC, MP3) but want VFX
-3. Cannot buy another phone at the present moment
+2. Those who play music locally (FLAC, MP3) but want ViperFX specifically.
+3. Cannot buy another phone at the present moment.
 
 (this is me)
 
