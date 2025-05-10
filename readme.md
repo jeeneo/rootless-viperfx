@@ -12,7 +12,9 @@ Tested on Android 15/OneUI 7
 ## Limitations
 1. Only audio played inside the VM will be filtered (hopefully obvious)
 2. If you use local files, your music library (MP3s, FLACs, etc) has to be moved to your Internal Storage, external storage isn't supported. This is an app limitation. You could probably edit the APK to support external storage but that's outside the scope of this guide.
-3. Battery is probably going to get drained, it is what it is.
+
+### Battery
+I ran it for ~3 hours on the S24 Ultra charged to 90% connected to bluetooth headphones (Sony WH-1000XM4) and it drained about 17%~22% (quite normal), so it's not going to chew as much as I thought considering its running a full Android environment.
 
 ## Disclaimer:
 Virtual Master is closed-source. Use at your own risk.
